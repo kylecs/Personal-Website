@@ -1,0 +1,119 @@
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+body {
+    width: 100%;
+    overflow: scroll;
+}
+
+/* pro tip from stack overflow */
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+}
+
+.quotesection {
+    margin-top: 4vh;
+    font-size: 13pt;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.navbar {
+    background: #2a324b;
+    padding: 1em;
+    overflow: auto;
+}
+
+.navbar .links {
+    font-size: 13pt;
+    color: #e1e5ee;
+    margin-left: 1em;    
+}
+
+.navbar .name {
+    font-size: 16pt;
+    color: #f7c59f;
+    text-decoration: none;
+}
+
+.navbar .links a {
+    color: inherit;
+    text-decoration: inherit;
+    margin-right: 0.75em;
+}
+
+.navbar .selected {
+    border-bottom: .07em solid #f7c59f;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 15pt;
+}
+
+.linktitle {
+    font-weight: bold;
+}
+
+.projectimage {
+    width: 100%;
+}
+
+.projecttitle {
+    font-weight: bolder;
+    font-size: 20pt;
+}
+
+
+
+.linktab:hover {
+    background: #f7c59f;
+
+}
+
+.linktab a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.linktab {
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 2em;
+}
+
+
+@media screen and (min-width: 605px) {
+    .linktab {
+        width: 46%;
+        
+    }
+
+    .linktableft {
+        float: left;
+    }
+    
+    .linktabright {
+        float: right;
+    }
+}
+
+@media screen and (max-width: 605px) {
+    .linktab {
+        width: 100%;
+    }
+
+}
+
+.resume {
+    width: 100%;
+    height: 95vh;
+}
